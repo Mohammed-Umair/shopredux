@@ -1,0 +1,46 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 250px;
+    width: 250px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+.img2{
+    height: 400px;
+    width: 400px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+
+.img:hover{
+    box-shadow: black 2px 2px 5px,black -2px -2px 5px;
+}
+
+.cards{
+    background-color: darkorange;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    box-shadow: black 4px 4px 5px,black -4px -4px 5px;
+    transition: 0.5s;
+}
+.cards:hover{
+    box-shadow: none;
+}
+.cards2{
+    background-color: darkorange;
+    width: 500px;
+    height: 450px;
+    /* box-shadow: black 4px 4px 5px,black -4px -4px 5px; */
+    transition: 0.5s;
+}
+.cards2 p{
+   margin: 30px 15px;
+    font-size: 20px;
+    font-family: cursive;
+}
